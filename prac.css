@@ -1,7 +1,19 @@
+/*
 body{
 	background-image: url("images/images.jpg");
-	background-position: 100% 50%;
+	background-position: 0% 0%;
 	background-repeat: no-repeat;
 	background-size: auto;
 	
+}
+*/
+div.hero{
+	background-image: url(Dreams.jpg);
+	background-color:black;
+	background-position: bottom left;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:300px;
+	width:500px;
+	top:0%;
 }
