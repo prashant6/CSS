@@ -1,19 +1,42 @@
-/*
-body{
+
+.csss{
+	width: 400px;
+	height: 300px;
 	background-image: url("images/images.jpg");
-	background-position: 0% 0%;
+	background-position: top left ;
 	background-repeat: no-repeat;
 	background-size: auto;
-	
+	position: absolute;
+	left:0;
+	top:0;
 }
-*/
+
+
 div.hero{
 	background-image: url(Dreams.jpg);
 	background-color:black;
 	background-position: bottom left;
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size: cover;
+	margin-left: 600px;
 	height:300px;
 	width:500px;
-	top:0%;
+	position: absolute;
+	right: 0px;
+}
+
+.animal{
+	border-style: solid;
+	border-color: red;
+	height:200px;
+	width:800px;
+	margin: auto;
+	margin-top:50px;
+	margin-bottom:500px;
+	position: absolute;
+	top: 410px;
+}
+
+p{
+	margin: auto;
 }
